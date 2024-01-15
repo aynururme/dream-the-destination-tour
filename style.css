@@ -1,8 +1,17 @@
+/* body part */
 body {
     background-color: white;
+    max-width: 1440px;
+
 }
 
+header {
+    border: 2px solid tomato;
 
+
+}
+
+/* nav section starts*/
 .logo {
     display: flex;
     justify-content: space-between;
@@ -35,13 +44,6 @@ nav li a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
-
-header {
-    max-width: 1440px;
-    border: 2px solid tomato;
-
-
 }
 
 .nav-title {
@@ -78,28 +80,159 @@ header {
     line-height: normal;
 }
 
+/* nav secyion ends*/
 .banner-image {
     width: 1170px;
     height: 500px;
     flex-shrink: 0;
     border-radius: 16px;
-   
+
     /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
     padding: 0 140px;
     filter: brightness(75%);
 }
-.banner-title{
+
+.banner-title {
     color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800 bold;
+    line-height: normal;
+    text-align: center;
+
+
+
+    position: absolute;
+
+    padding-top: 106px;
+    padding-left: 287px;
+    top: 30%;
+    left: 10%;
+}
+
+.banner-description {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    position: absolute;
+
+    padding-top: 210px;
+    padding-left: 247px;
+    top: 40%;
+    left: 10%;
+    width: 676px;
+    height: 52px;
+}
+
+/* input container */
+.input-container {
+    /* display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px; */
+    /* background: rgba(176, 35, 35, 0.3); */
+    /* position: absolute; */
+    top: 60%;
+    left: 5%;
+    padding-top: 310px;
+    padding-left: 185px;
+    padding-bottom: 106px;
+    width: 800px;
+    height: 4px;
+}
+
+.where-go {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    /* color: rgba(19, 19, 24, 0.50);
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    */
+}
+
+#find {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+/* input container */
+.popular-tours {
+    display: flex;
+    margin-top: 50px;
+    padding-left: 140px;
+    gap: 20px;
+}
+
+.title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 0;
+}
+
+.description {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    width: 575px;
+}
+
+.list-1 {
+    width: 500px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.tour-image {
+    width: 540px;
+    height: 540px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+
+.read-more {
+    width: 174px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+}
+.read-button{
+    color: #FFF;
+text-align: center;
 font-family: Mulish;
-font-size: 64px;
+font-size: 20px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
-text-align: center;
-position: absolute;
-
-padding-top: 106px;
-padding-left: 387px;
-top: 30%;
-left: 10%;
 }
