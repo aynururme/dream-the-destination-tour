@@ -9,6 +9,7 @@ body {
 
 header {
     border: 2px solid tomato;
+    display: none;
 
 
 }
@@ -186,11 +187,8 @@ nav li a {
     background: #FF5400;
 }
 
-/* input container */
-.tour-details {
-    width: 540px;
-    height: 550px;
-}
+/* popular tour section starts here */
+
 
 .popular-tours {
     display: flex;
@@ -199,6 +197,12 @@ nav li a {
     gap: 20px;
     border: 2px solid tomato;
     justify-content: space-between;
+    display: none;
+
+}
+.tour-details {
+    width: 540px;
+    height: 550px;
 }
 
 .title {
@@ -296,7 +300,61 @@ nav li a {
 .image-container {
     display: grid;
 }
+/* why-choose-us section starts here */
+.why-choose-us{
+    max-width: 1440px;
+padding: 10px 135px;
 
+}
+.description-content{
+
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.choose-title{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+/* padding-left: 431px; */
+
+}
+.choose-description{
+    color: rgba(2, 2, 26, 0.7);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 643px;
+    padding-left: 30%;
+}
+.card{
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding-left: 20px;
+padding-top: 20px;
+
+}
+.row-2{
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 50%;
+ 
+
+}
+/* why-choose-us section ends here */
 /* newsletter section starts */
 .newsletter {
     display: flex;
@@ -307,6 +365,7 @@ nav li a {
     flex-shrink: 0;
     border-radius: 16px;
     border: 1px solid #FF5400;
+
 }
 
 .newsletter-container {
@@ -429,7 +488,7 @@ position: absolute;
 padding-left: 56px;
 
 }
-
+/* newsletter section ends here */
 /* footer section starts */
 footer {
     width: 1440px;
@@ -437,6 +496,8 @@ footer {
     flex-shrink: 0;
     background: rgba(187, 74, 13, 0.05);
     border: 2px solid tomato;
+    display: none;
+
 }
 
 #footer-logo {
