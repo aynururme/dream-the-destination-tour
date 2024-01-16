@@ -146,20 +146,17 @@ nav li a {
 
 /* input container */
 .input-container {
-    /* display: inline-flex;
-    padding: 16px;
-    align-items: flex-start;
-    gap: 24px;
-    border-radius: 8px; */
-    /* background: rgba(176, 35, 35, 0.3); */
-    /* position: absolute; */
-    top: 60%;
-    left: 5%;
-    padding-top: 310px;
     padding-left: 185px;
-    padding-bottom: 106px;
-    width: 800px;
-    height: 4px;
+    width: 600px;
+    /* height: 4px;  */
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: white; */
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    border-radius: 8px;
+    padding-left: 140px;
 }
 
 .where-go {
@@ -167,15 +164,46 @@ nav li a {
     height: 52px;
     flex-shrink: 0;
     border-radius: 8px;
-    background: #FFF;
-    /* color: rgba(19, 19, 24, 0.50);
-    /* text-align: center; */
+    background: white;
+    margin-right: 10px;
+    display: flex;
+   padding-left: 15px;
+}
+
+.where-description {
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    */
+}
+.where-description-find{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.where-image{
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+padding-top: 15px;
+padding-left: 5px;
+}
+#find-now{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background-color: #FF5400;
 }
 
 #find {
@@ -304,8 +332,8 @@ nav li a {
     position: relative;
 
 }
-.image-1{
-}
+
+.image-1 {}
 
 .maldives {
     position: absolute;
@@ -320,7 +348,7 @@ nav li a {
     line-height: normal;
     /* padding-left: 226px;
     padding-top: 132px; */
-} 
+}
 
 .indonesia {
     position: absolute;
@@ -335,8 +363,9 @@ nav li a {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-} 
- .Srilanka{
+}
+
+.Srilanka {
     position: absolute;
     top: 45%;
     left: 12%;
@@ -348,7 +377,8 @@ nav li a {
     font-weight: 800;
     line-height: normal;
 }
-.North-America{
+
+.North-America {
     position: absolute;
     top: 45%;
     left: 45%;
@@ -360,7 +390,8 @@ nav li a {
     font-weight: 800;
     line-height: normal;
 }
-.Kashmir{
+
+.Kashmir {
     position: absolute;
     top: 45%;
     left: 80%;
@@ -372,7 +403,8 @@ nav li a {
     font-weight: 800;
     line-height: normal;
 }
-.Bangladesh{
+
+.Bangladesh {
     position: absolute;
     top: 80%;
     left: 15%;
@@ -384,7 +416,8 @@ nav li a {
     font-weight: 800;
     line-height: normal;
 }
-.Bandarban{
+
+.Bandarban {
     position: absolute;
     top: 80%;
     left: 65%;
@@ -395,7 +428,7 @@ nav li a {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-} 
+}
 
 .image-1-title {
     color: #FFF;
@@ -498,33 +531,36 @@ nav li a {
 
 
 /* review section starts here */
-.review{
+.review {
     padding: 50px 140px;
 
 
 }
-.review-card-container{
+
+.review-card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 
 }
-.review-title{
-background-color: antiquewhite;
-color: black;
-/* text-align: center; */
-font-family: Mulish;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: 18px;
-height: 50px;
-padding: auto;
-text-align: center;
-padding-top: 20px;
-margin-left: 20px;
+
+.review-title {
+    background-color: antiquewhite;
+    color: black;
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    height: 50px;
+    padding: auto;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 20px;
 }
-.review-card{
+
+.review-card {
     width: 573px;
     height: 284px;
     flex-shrink: 0;
@@ -535,7 +571,8 @@ margin-left: 20px;
     padding-top: 20px;
 
 }
-.name{
+
+.name {
     color: rgba(19, 19, 24, 0.70);
     /* text-align: center; */
     font-family: Mulish;
@@ -546,7 +583,8 @@ margin-left: 20px;
 
 
 }
-.place{
+
+.place {
     color: rgba(27, 27, 30, 0.7);
     /* text-align: center; */
     font-family: Mulish;
@@ -556,7 +594,8 @@ margin-left: 20px;
     line-height: 26px;
 
 }
-.date{
+
+.date {
     color: rgba(27, 27, 30, 0.7);
     /* text-align: center; */
     font-family: Mulish;
@@ -566,7 +605,8 @@ margin-left: 20px;
     line-height: 26px;
 
 }
-.description{
+
+.description {
     color: rgba(19, 19, 24, 0.70);
     /* text-align: center; */
     font-family: Mulish;
@@ -579,6 +619,7 @@ margin-left: 20px;
     /* width: 643px;
     padding-left: 264px;    */
 }
+
 /* review section ends here */
 /* newsletter section starts */
 .newsletter {
